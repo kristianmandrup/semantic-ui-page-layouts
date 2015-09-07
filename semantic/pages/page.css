@@ -1,0 +1,30 @@
+.launch.button {
+    display: block;
+}
+
+.fixed.launch.button {
+  position: fixed;
+  top: 2.5em;
+  left: 0px;
+  width: 55px;
+  height: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 0.3s width ease, 0.5s transform ease;
+}
+
+.fixed.launch.button .text {
+  position: absolute;
+  white-space: nowrap;
+  top: auto;
+  left: 54px;
+  opacity: 0;
+  transition: 0.3s opacity 0.3s;
+}
+
+.fixed.launch.button:hover {
+  width: 130px;
+}
+.fixed.launch.button:hover .text {
+  opacity: 1;
+}
