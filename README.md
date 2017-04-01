@@ -1,6 +1,8 @@
 Semantic UI Page layout examples
 --------------------------------
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/semantic-ui-page-layouts.svg)](https://greenkeeper.io/)
+
 The goal of this project is to demonstrate examples for various typical page layouts using Semantic UI. We want to achieve the following:
 
 -	1) Fixed Top bar menu with toggable left Sidebar
